@@ -84,7 +84,10 @@ function findLongestWord (inputArray) {
 			myLength = inputArray[i].length;
 		}
 	}
+	return myLength;
 }
+
+findLongestWord(["One", "Two", "Three", "Four", "Five", "A", "aa"]);
 
 // Bonus 3
 function filterLongestWords (inputArray, i) {
