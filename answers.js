@@ -19,9 +19,7 @@ maxOfTwoNumbers(3, 3);
 
 
 // exercise 2
-//Define a function maxOfThree that takes three numbers as arguments and returns the largest of them.
-
-function maxOfTwoNumbers(num1, num2, num3) {
+function maxOfThree(num1, num2, num3) {
 	if ((num1 > num2) && (num1 > num3)) {
 		return num1;
 	} else if (num2 > num1 && num2 > num3) {
@@ -30,10 +28,9 @@ function maxOfTwoNumbers(num1, num2, num3) {
         return num3;
 }
 
-maxOfTwoNumbers(4,5,6);
+maxOfThree(4,5,6);
 
 // exercise 3
-
 function isVowel(letterCheck) {
     var vowels = ["a", "e", "i", "o", "u"]
     var vowelCheck = vowels.indexOf(letterCheck);
@@ -48,7 +45,6 @@ function isVowel(letterCheck) {
  isVowel("s");
 
 // exercise 4
-
 function sumArray (myArray) {
 	var mySum = 0;
 	for (var i = 0; i < myArray.length; i++) {
@@ -69,7 +65,6 @@ multiplyArray([1, 2, 3, 4, 5, 6, 7, 8, 9]);
 
 
 // Bonus 1
-
 function reverseString (inputString) {
 	var reversedString = '';
 	for (var i = inputString.length; i > -1 ; i--) {
@@ -81,9 +76,7 @@ function reverseString (inputString) {
 // TODO this is still returning an undefined before the reversed string.
 reverseString("mike");
 
-
 // Bonus 2
-
 function findLongestWord (inputArray) {
 	var myLength = 0;
 	for (var i = 1; i < inputArray.length; i++) {
@@ -94,7 +87,6 @@ function findLongestWord (inputArray) {
 }
 
 // Bonus 3
-
 function filterLongestWords (inputArray, i) {
     var myLength = 0;
     var biggest = "";
@@ -108,6 +100,3 @@ function filterLongestWords (inputArray, i) {
 }
 
 filterLongestWords(['the', 'world', 'is', 'wonderful', 'the']);
-
-
-
